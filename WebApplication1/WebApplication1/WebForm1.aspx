@@ -27,11 +27,15 @@
             font-size:28px;
             text-align:center;
         }
+        .t {
+         width: 1603px; height: 120px; border-bottom:1px black dashed; text-align: center; font-size: 72px;
+        
+        }
     </style>
     <table style="width: 1603px; height: 1080px; margin-left: 159px;"  >
         <tbody>
             <tr>
-                <td style="width: 1603px; height: 120px; background-color: lightblue; text-align: center; font-size: 36px;" colspan="2">Welcome</td>
+                <td class="t" colspan="2">Welcome</td>
             </tr>
             <tr >
                 <td rowspan="6" style="width: 985px; height: 920px; width: auto; height: auto; " >

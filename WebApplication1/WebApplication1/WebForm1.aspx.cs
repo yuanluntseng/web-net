@@ -25,7 +25,7 @@ namespace WebApplication1
         }
 
         private int rado() {
-           c = rd.Next(0, 4);
+           c = rd.Next(0, 5);
 
             return c;
         }
@@ -45,8 +45,10 @@ namespace WebApplication1
                 case 3:
                     k = "Images/1 (20).jpeg";
                     break;
-                
-                   
+                case 4:
+                    k = "Images/1 (42).jpg";
+                    break;
+
             }
 
 
@@ -81,8 +83,6 @@ namespace WebApplication1
             ImageButton1.Visible = true;
 
             TextBox1.Visible = false;
-            TextBox1.Text = ("lll");
-
         }
 
         protected void Button5_Click(object sender, EventArgs e)
